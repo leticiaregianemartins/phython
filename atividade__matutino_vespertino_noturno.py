@@ -15,3 +15,4 @@ match (turno):
         print("Boa noite")
 
 # No python, o CASO não é obrigatorio ser número inteiro, ele aceita caractere.
+# Se for por só o caractere não colocar o int
