@@ -4,3 +4,5 @@
 # Converter para um real o comando é o: float()
 a = input("digite um numero inteiro" )
 b = input("digite um número inteiro" )
+
+"querido professor,não consegui terminar"
