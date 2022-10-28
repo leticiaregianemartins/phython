@@ -8,12 +8,8 @@
 numero = int(input("digite um número inteiro"))
 inicio = int(input("digite o inicio da tabuada"))
 fim = int(input("digite o fim da tabuada"))
-a = 1
-fim = fim +1
-if (fim < inicio):
-    a = -1
-    fim = fim-2
-for i in range(inicio,fim, a):
+
+for i in range(inicio,fim +1):
     resultado = numero * i
     print("o resultado dá multiplicação " + str(numero) + " * " + str(i) + " é : " + str(resultado))
-
+    inicio = inicio + 1
