@@ -5,7 +5,7 @@ turno = int(input("qual turno você estuda? Coloque 1 se for Manhã, 2 se for Ta
 
 
 match (turno):
-    case(1):
+    case (1):
         print("Bom dia")
 
     case (2):
