@@ -7,22 +7,23 @@
 
 num1 = int(input("digite o primeiro numero"))
 num2 = int(input("digite o segundo numero"))
+continuar = "sim"
 
-while == "sim"
-resultado = num1 + num2
-print("o resultado é", resultado)
+while continuar == "sim":
+    resultado = num1 + num2
+    print("o resultado é", resultado)
 
-resultado = num1 - num2
-print("o resultado é", resultado)
+    resultado = num1 - num2
+    print("o resultado é", resultado)
 
-resultado = num1 * num2
-print("o resultado é", resultado)
+    resultado = num1 * num2
+    print("o resultado é", resultado)
 
-resultado = num1 / num2
-print("o resultado é", resultado)
+    resultado = num1 / num2
+    print("o resultado é", resultado)
 
-continuar = input("sim")
-print("deseja continuar", continuar)
+    continuar = input("sim")
+    print("deseja continuar", continuar)
 
 
 
