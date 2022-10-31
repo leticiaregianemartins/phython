@@ -4,5 +4,20 @@
 # • Ao final, os índices da linha e da coluna devem ser impressos se o elemento for encontrado;
 # caso contrário, a mensagem “elemento não encontrado” deve ser mostrada na tela.
 
-matriz = [[1,2,3,4], [1,2,3,4], [1,2,3,4], [1,2,3,4], [1,2,3,4]]
+lista = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+
+for i in range(5):
+    for j in range(5):
+        lista[i][j] = int(input("digite um número inteiro "))
+
+n1 = int(input("digite um número para localizar na matriz "))
+encontrado = False
+
+for i in range(5):
+    for j in range(5):
+        if lista[i][j] == n1:
+            print("número encontrado", n1, "na posição", lista[i][j])
+            encontrado = True
+if(encontrado is False):
+    print("Não foi encontrado na matriz seu número")
 

@@ -15,6 +15,6 @@ if(notatotal >= 60 and notatotal <= 100):
     print("você foi aprovado")
 elif(notatotal >=40 and  notatotal <60):
     print("você está de recuperação")
-elif(notatotal >=0 and notatotal <=40):
+elif(notatotal >=0 and notatotal <40):
     print("você está reprovado")
 
