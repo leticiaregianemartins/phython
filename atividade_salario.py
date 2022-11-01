@@ -16,6 +16,7 @@ mes = pordia * 30
 print("O seu sálario liquido é", mes)
 
 bruto = mes * 8 / 100 and mes * 11 / 100 and mes * 5 / 100
+print("será descontado do seu sálario", bruto )
 
 bruto2 = mes - bruto
 print("O seu sálario bruto é", bruto2)
