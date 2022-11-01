@@ -10,4 +10,4 @@ def coelho(n):
     else:
         return coelho(n - 1) + coelho(n - 2)
 n = 12
-print("terá casais de", coelho(n), "coelho")
+print("terá casais de", coelho(n), "coelhos")
