@@ -9,9 +9,15 @@
 # nomeDaFuncao()
 # #se tiver que passar parâmetros é só colocar no parêntese (param1, param2)
 
-lista_nomesenem = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,]
+lista_nomes_enem = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-lista_nomesenem = str(input("digites os nomes dos estudantes"))
 
-for i in range(1, 20):
-    lista_nomesenem
+
+for i in range(20):
+    lista_nomes_enem[i] = str(input("digites os nomes dos estudantes "))
+
+lista_nomes_enem.sort()
+print(lista_nomes_enem)
+
+
+
